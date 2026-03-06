@@ -44,7 +44,12 @@ const Header = () => {
             onClick={() => scrollTo("hero")}
             className="text-2xl md:text-3xl font-bold text-primary tracking-tight"
           >
-            {t(content.brand)}
+            {/* {t(content.brand)} */}
+            <img
+              src="/src/assets/gaubook-logo.png"
+              alt="Gaubook"
+              className="max-h-10 md:h-14 w-auto object-contain"
+            />
           </button>
 
           {/* Desktop Nav */}
@@ -148,7 +153,6 @@ const Header = () => {
           )}
         </AnimatePresence>
       </motion.header>
-
     </>
   );
 };
