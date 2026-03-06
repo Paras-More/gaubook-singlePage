@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== DESIGN SYSTEM =====
+   All colors are HSL. Change theme via config/theme.js
+   These are defaults; the JS theme store overrides them at runtime.
+*/
+
+@layer base {
+  :root {
+    --background: 40 50% 97%;
+    --foreground: 20 30% 12%;
+    --card: 40 40% 99%;
+    --card-foreground: 20 30% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 30% 12%;
+    --primary: 24 95% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 40 45% 92%;
+    --secondary-foreground: 20 30% 18%;
+    --muted: 40 30% 93%;
+    --muted-foreground: 20 10% 45%;
+    --accent: 145 40% 42%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 35 25% 88%;
+    --input: 35 25% 88%;
+    --ring: 24 95% 53%;
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --hero-gradient-start: 24 95% 53%;
+    --hero-gradient-end: 35 90% 58%;
+    --section-alt-bg: 40 40% 95%;
+    --highlight: 24 95% 53%;
+    --highlight-foreground: 0 0% 100%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 20 20% 8%;
+    --foreground: 40 30% 92%;
+    --card: 20 18% 12%;
+    --card-foreground: 40 30% 92%;
+    --popover: 20 18% 12%;
+    --popover-foreground: 40 30% 92%;
+    --primary: 24 90% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 20 15% 18%;
+    --secondary-foreground: 40 30% 92%;
+    --muted: 20 12% 20%;
+    --muted-foreground: 40 15% 60%;
+    --accent: 145 35% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 20 12% 22%;
+    --input: 20 12% 22%;
+    --ring: 24 90% 55%;
+    --section-alt-bg: 20 15% 10%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
