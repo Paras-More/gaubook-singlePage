@@ -39,7 +39,7 @@ const content = {
     },
     downloadIos: { en: "Download for iOS", hi: "iOS के लिए डाउनलोड करें" },
     appLinks: {
-      android: "#",
+      android: "https://play.google.com/store/apps/details?id=com.gaubook.app",
       ios: "#",
     },
   },

@@ -25,7 +25,10 @@ const HeroSection = () => {
   const cowRotate = useTransform(scrollYProgress, [0, 0.3], [0, -5]);
 
   return (
-    <AnimatedSection id="hero" className="relative min-h-screen flex items-center overflow-hidden">
+    <AnimatedSection
+      id="hero"
+      className="relative min-h-screen flex items-center overflow-hidden"
+    >
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <motion.img
@@ -83,21 +86,31 @@ const HeroSection = () => {
           >
             <a
               href={content.hero.appLinks.android}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-foreground text-background px-7 py-3.5 rounded-xl text-base font-semibold hover:opacity-90 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               <PlayStoreIcon />
               <div className="text-left">
-                <div className="text-[10px] uppercase tracking-wider opacity-80">Get it on</div>
-                <div className="text-sm font-bold leading-tight">Google Play</div>
+                <div className="text-[10px] uppercase tracking-wider opacity-80">
+                  Get it on
+                </div>
+                <div className="text-sm font-bold leading-tight">
+                  Google Play
+                </div>
               </div>
             </a>
             <a
               href={content.hero.appLinks.ios}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-foreground text-background px-7 py-3.5 rounded-xl text-base font-semibold hover:opacity-90 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               <AppleIcon />
               <div className="text-left">
-                <div className="text-[10px] uppercase tracking-wider opacity-80">Download on the</div>
+                <div className="text-[10px] uppercase tracking-wider opacity-80">
+                  Download on the
+                </div>
                 <div className="text-sm font-bold leading-tight">App Store</div>
               </div>
             </a>
