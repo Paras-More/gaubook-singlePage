@@ -20,8 +20,27 @@ const Header = () => {
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
-    setIsMenuOpen(false);
+    if (!el) {
+      setIsMenuOpen(false);
+      return;
+    }
+    // If mobile menu is open, close it first, then scroll after DOM updates
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+      setTimeout(() => {
+        const header = document.querySelector("header");
+        const headerHeight = header ? header.offsetHeight : 0;
+        const y =
+          el.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }, 350); // match menu close animation duration
+    } else {
+      const header = document.querySelector("header");
+      const headerHeight = header ? header.offsetHeight : 0;
+      const y =
+        el.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
   };
 
   const t = (obj) => obj[language] || obj.en;

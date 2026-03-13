@@ -280,62 +280,132 @@ const content = {
         en: "Pamphlet",
         hi: "पैम्फलेट",
         variants: [
-          { en: "Hindi", hi: "हिंदी", previewUrl: "#", downloadUrl: "#" },
-          { en: "English", hi: "अंग्रेजी", previewUrl: "#", downloadUrl: "#" },
+          {
+            en: "Hindi",
+            hi: "हिंदी",
+            previewUrl: "https://picsum.photos/600/800?random=1",
+            downloadUrl: "https://picsum.photos/600/800?random=1",
+          },
+          {
+            en: "English",
+            hi: "अंग्रेजी",
+            previewUrl: "https://picsum.photos/600/800?random=2",
+            downloadUrl: "https://picsum.photos/600/800?random=2",
+          },
         ],
       },
       {
         en: "Banner 2x4",
         hi: "बैनर 2x4",
         variants: [
-          { en: "Hindi", hi: "हिंदी", previewUrl: "#", downloadUrl: "#" },
-          { en: "English", hi: "अंग्रेजी", previewUrl: "#", downloadUrl: "#" },
+          {
+            en: "Hindi",
+            hi: "हिंदी",
+            previewUrl: "https://picsum.photos/800/400?random=3",
+            downloadUrl: "https://picsum.photos/800/400?random=3",
+          },
+          {
+            en: "English",
+            hi: "अंग्रेजी",
+            previewUrl: "https://picsum.photos/800/400?random=4",
+            downloadUrl: "https://picsum.photos/800/400?random=4",
+          },
         ],
       },
       {
         en: "Banner 6x4",
         hi: "बैनर 6x4",
         variants: [
-          { en: "Hindi", hi: "हिंदी", previewUrl: "#", downloadUrl: "#" },
-          { en: "English", hi: "अंग्रेजी", previewUrl: "#", downloadUrl: "#" },
+          {
+            en: "Hindi",
+            hi: "हिंदी",
+            previewUrl: "https://picsum.photos/1200/800?random=5",
+            downloadUrl: "https://picsum.photos/1200/800?random=5",
+          },
+          {
+            en: "English",
+            hi: "अंग्रेजी",
+            previewUrl: "https://picsum.photos/1200/800?random=6",
+            downloadUrl: "https://picsum.photos/1200/800?random=6",
+          },
         ],
       },
       {
         en: "Standee 3x6",
         hi: "स्टैंडी 3x6",
         variants: [
-          { en: "Hindi", hi: "हिंदी", previewUrl: "#", downloadUrl: "#" },
-          { en: "English", hi: "अंग्रेजी", previewUrl: "#", downloadUrl: "#" },
+          {
+            en: "Hindi",
+            hi: "हिंदी",
+            previewUrl: "https://picsum.photos/600/1200?random=7",
+            downloadUrl: "https://picsum.photos/600/1200?random=7",
+          },
+          {
+            en: "English",
+            hi: "अंग्रेजी",
+            previewUrl: "https://picsum.photos/600/1200?random=8",
+            downloadUrl: "https://picsum.photos/600/1200?random=8",
+          },
         ],
       },
       {
         en: "T-Shirt – Backside",
         hi: "टी-शर्ट – पीछे",
         variants: [
-          { en: "View", hi: "देखें", previewUrl: "#", downloadUrl: "#" },
+          {
+            en: "View",
+            hi: "देखें",
+            previewUrl: "https://picsum.photos/500/600?random=9",
+            downloadUrl: "https://picsum.photos/500/600?random=9",
+          },
         ],
       },
       {
         en: "Cap – Logo",
         hi: "कैप – लोगो",
         variants: [
-          { en: "View", hi: "देखें", previewUrl: "#", downloadUrl: "#" },
+          {
+            en: "View",
+            hi: "देखें",
+            previewUrl: "https://picsum.photos/400/400?random=10",
+            downloadUrl: "https://picsum.photos/400/400?random=10",
+          },
         ],
       },
       {
         en: "WhatsApp Status Banner",
         hi: "व्हाट्सएप स्टेटस बैनर",
         variants: [
-          { en: "Hindi", hi: "हिंदी", previewUrl: "#", downloadUrl: "#" },
-          { en: "English", hi: "अंग्रेजी", previewUrl: "#", downloadUrl: "#" },
+          {
+            en: "Hindi",
+            hi: "हिंदी",
+            previewUrl: "https://picsum.photos/1080/1920?random=11",
+            downloadUrl: "https://picsum.photos/1080/1920?random=11",
+          },
+          {
+            en: "English",
+            hi: "अंग्रेजी",
+            previewUrl: "https://picsum.photos/1080/1920?random=12",
+            downloadUrl: "https://picsum.photos/1080/1920?random=12",
+          },
         ],
       },
       {
         en: "WhatsApp Channel QR",
         hi: "व्हाट्सएप चैनल QR",
         variants: [
-          { en: "Hindi", hi: "हिंदी", previewUrl: "#", downloadUrl: "#" },
-          { en: "English", hi: "अंग्रेजी", previewUrl: "#", downloadUrl: "#" },
+          {
+            en: "Hindi",
+            hi: "हिंदी",
+            previewUrl: "https://picsum.photos/300/300?random=13",
+            downloadUrl: "https://picsum.photos/300/300?random=13",
+          },
+          {
+            en: "English",
+            hi: "अंग्रेजी",
+            previewUrl: "https://picsum.photos/300/300?random=14",
+            downloadUrl: "https://picsum.photos/300/300?random=14",
+          },
         ],
       },
     ],
