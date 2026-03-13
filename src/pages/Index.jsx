@@ -25,7 +25,6 @@ const Index = () => {
       </main>
       <Footer />
       <StickyBottomBar />
-      <ScrollAnimatedCow />
       {/* Spacer for sticky bottom bar */}
       <div className="h-16" />
     </div>

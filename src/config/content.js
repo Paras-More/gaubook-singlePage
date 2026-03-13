@@ -469,8 +469,8 @@ const content = {
     privacyHeading: { en: "Privacy Policy", hi: "गोपनीयता नीति" },
     disclaimerHeading: { en: "Disclaimer", hi: "अस्वीकरण" },
     lastUpdated: {
-      en: "Last Updated: January 2026",
-      hi: "अंतिम अपडेट: जनवरी 2026",
+      en: "Last Updated: March 2026",
+      hi: "अंतिम अपडेट: मार्च 2026",
     },
     terms: [
       {
